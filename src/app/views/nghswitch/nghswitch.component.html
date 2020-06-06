@@ -1,0 +1,9 @@
+<h2>Exercicio 1</h2>
+<input type="text" [(ngModel)]="val">
+
+<div [ngSwitch]="val">
+  <a href="https://www.youtube.com/channel/UC-eqG9dW9ydhDGs_t67URMg" *ngSwitchCase="'orochi'">Orochinho</a>
+  <a href="https://www.youtube.com/user/yetzlol" *ngSwitchCase="'yetz'">Yetz</a>
+  <a href="https://www.youtube.com/user/danyel302" *ngSwitchCase="'smurf do muca'">Smurf do muca</a>
+  <a *ngSwitchDefault>Nenhum canal</a>
+</div>
